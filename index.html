@@ -1,18 +1,897 @@
----
-layout: default
----
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="theme-color" content="#000"/>
+    <title>Mohammad Sadra Boromand</title>
+    <!--    css-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/icons/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="./assets/icons/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/particles.css"/>
+</head>
+<body class="bg-info-subtle">
+<!--header-->
+<section>
+    <div
+            class="w-100 h-100"
+            id="particles-js"
+            style="
+          background: url(./assets/images/back1.jpg);
+          background-position: center;
+          background-size: cover;
+        "
+    >
+        <div
+                class="w-100 h-100 position-absolute bg-dark bg-opacity-75 d-flex justify-content-center align-items-center"
+        >
+            <div class="container">
+                <div
+                        class="text-white row text-center d-flex align-items-center justify-content-center"
+                >
+                    <div class="col-md-8">
+                        <img
+                                class="rounded rounded-4 border border-2 img-fluid"
+                                style="box-shadow: 0 0 12px #fff"
+                                width="190"
+                                src="./assets/images/profile.jpg"
+                                alt="profile"
+                        />
+                        <h1 class="display-6 mb-4 mt-3">Mohammad Sadra Boromand</h1>
+                        <div class="row">
+                            <div class="col">
+                                Full-Stack Developer
+                                <svg width="30" height="30" viewBox="0 0 48 48">
+                                    <path
+                                            fill="#3f51b5"
+                                            d="M26.4 24.898L27.309 19H30l-2.123 10H25.5l-1.495-5.938L22.505 29h-2.377L18 19h2.695l.891 6.035L23.02 19h1.959L26.4 24.898zM12.4 24.898L13.309 19H16l-2.123 10H11.5l-1.495-5.938L8.505 29H6.128L4 19h2.695l.891 6.035L9.02 19h1.959L12.4 24.898zM40.4 24.898L41.309 19H44l-2.123 10H39.5l-1.495-5.938L36.505 29h-2.377L32 19h2.695l.891 6.035L37.02 19h1.959L40.4 24.898z"
+                                    />
+                                    <path fill="#2196f3" d="M8.5 12H39.5V14H8.5z"/>
+                                    <path
+                                            fill="#2196f3"
+                                            d="M8.5 12H39.5V14H8.5zM8.5 34H39.5V36H8.5z"
+                                    />
+                                    <path
+                                            fill="#2196f3"
+                                            d="M7.426 17c2.085-4.911 6.289-8.714 11.462-10.25-1.965 2.298-3.48 5.898-4.273 10.25h2.048C17.776 11.281 20.182 6.998 23 6.164V17h2V6.164c2.818.833 5.224 5.117 6.337 10.836h2.048c-.793-4.352-2.308-7.952-4.273-10.25 5.173 1.536 9.377 5.339 11.462 10.25h2.137C39.865 9.419 32.563 4 24 4S8.135 9.419 5.289 17H7.426zM40.574 31c-2.085 4.911-6.289 8.714-11.462 10.25 1.965-2.298 3.48-5.898 4.273-10.25h-2.048C30.224 36.719 27.818 41.002 25 41.836V31h-2v10.836c-2.818-.833-5.224-5.117-6.337-10.836h-2.048c.793 4.352 2.308 7.952 4.273 10.25C13.715 39.714 9.511 35.911 7.426 31H5.289C8.135 38.581 15.437 44 24 44s15.865-5.419 18.711-13H40.574z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                AI Developer
+                                <svg width="30" height="30" viewBox="0 0 48 48">
+                                    <path
+                                            fill="#0277BD"
+                                            d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+                                    />
+                                    <path
+                                            fill="#FFC107"
+                                            d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                Mobile Developer
+                                <svg width="30" height="30" viewBox="0 0 48 48">
+                                    <path
+                                            fill="#37474F"
+                                            d="M6,36V8c0-2.2,1.8-4,4-4h14c2.2,0,4,1.8,4,4v28c0,2.2-1.8,4-4,4H10C7.8,40,6,38.2,6,36z"
+                                    />
+                                    <path
+                                            fill="#BBDEFB"
+                                            d="M24,7H10C9.4,7,9,7.4,9,8v25c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V8C25,7.4,24.6,7,24,7z"
+                                    />
+                                    <path fill="#78909C" d="M14 36H20V38H14z"/>
+                                    <path
+                                            fill="#E38939"
+                                            d="M20,40V12c0-2.2,1.8-4,4-4h14c2.2,0,4,1.8,4,4v28c0,2.2-1.8,4-4,4H24C21.8,44,20,42.2,20,40z"
+                                    />
+                                    <path
+                                            fill="#FFF3E0"
+                                            d="M38,11H24c-0.6,0-1,0.4-1,1v25c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V12C39,11.4,38.6,11,38,11z"
+                                    />
+                                    <path
+                                            fill="#A6642A"
+                                            d="M31 39.5A1.5 1.5 0 1 0 31 42.5A1.5 1.5 0 1 0 31 39.5Z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="mt-3">
+                                <a
+                                        href="./assets/my resume.pdf"
+                                        target="_blank"
+                                        class="btn btn-sm rounded rounded-2 btn-light"
+                                >Download Resume PDF</a
+                                >
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="position-absolute bottom-0 mb-5">
+                                <a
+                                        href="http://t.me/msb_soft"
+                                        class="btn me-2 bg-light rounded rounded-pill"
+                                >
+                                    <i class="bi-telegram text-primary"></i>
+                                </a>
+                                <a
+                                        href="https://www.instagram.com/msbsoft2/"
+                                        class="btn me-2 bg-light rounded rounded-pill"
+                                >
+                                    <i class="bi-instagram text-danger"></i>
+                                </a>
+                                <a
+                                        href="https://twitter.com/sadrabroo"
+                                        class="btn me-2 bg-light rounded rounded-pill"
+                                >
+                                    <i class="bi-twitter text-info"></i>
+                                </a>
+                                <a
+                                        href="https://www.linkedin.com/in/sadrabroo/"
+                                        class="btn me-2 bg-light rounded rounded-pill"
+                                >
+                                    <i class="bi-linkedin text-primary-emphasis"></i>
+                                </a>
+                                <a
+                                        href="https://www.github.com/msbsoft2/"
+                                        class="btn me-2 bg-light rounded rounded-pill"
+                                >
+                                    <i class="bi-github text-dark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end header-->
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!--education-->
+<section>
+    <div class="container mt-5 mb-4 text-center">
+        <h3 class="display-6 text-muted">
+            <i class="fa fa-school text-primary"></i> Education
+        </h3>
+        <hr/>
+        <div class="row">
+            <div class="col">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <i class="fa fa-laptop text-primary fa-2x d-block mb-2"></i>
+                        Bachelor of Computer Science
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <i class="fa fa-brain text-primary fa-2x d-block mb-2"></i>
+                        Master of Artificial Intelligence and Robotics
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end education-->
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<!--skills-->
+<section>
+    <div class="container mt-5 mb-4 text-center">
+        <h3 class="display-6 text-muted">
+            <i class="fa fa-code text-danger"></i> Skills
+        </h3>
+        <hr/>
+        <table
+                class="table table-bordered border-info table-responsive table-striped text-center"
+        >
+            <thead>
+            <tr>
+                <th class="w-25">Language</th>
+                <th>Framework</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <strong class="text-danger">Python</strong>
+                </td>
+                <td>
+                    <div class="d-flex flex-wrap">
+                  <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                  >PyTorch</span
+                  >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Tensorflow</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Skit-Learn</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >OpenCV</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Numpy</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Matplotlib</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Pandas</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Django</span
+                        >
+                        <span class="badge bg-danger rounded-pill px-2 me-2 mb-2"
+                        >Django Rest Framework</span
+                        >
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong class="text-primary">C#</strong>
+                </td>
+                <td>
+                    <div class="d-flex flex-wrap">
+                  <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                  >Asp.net Core MVC</span
+                  >
+                        <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                        >Asp.net Core WebAPI</span
+                        >
+                        <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                        >Micro Services</span
+                        >
+                        <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                        >Windows Form</span
+                        >
+                        <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                        >Entity Framework</span
+                        >
+                        <span class="badge bg-primary rounded-pill px-2 me-2 mb-2"
+                        >Sql Server</span
+                        >
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong class="text-warning">Javascript</strong>
+                </td>
+                <td>
+                    <div class="d-flex flex-wrap">
+                  <span class="badge bg-warning rounded-pill px-2 me-2 mb-2"
+                  >Next.js</span
+                  >
+                        <span class="badge bg-warning rounded-pill px-2 me-2 mb-2"
+                        >React.js</span
+                        >
+                        <span class="badge bg-warning rounded-pill px-2 me-2 mb-2"
+                        >React Native</span
+                        >
+                        <span class="badge bg-warning rounded-pill px-2 me-2 mb-2"
+                        >JQuery</span
+                        >
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong class="text-muted">Web Development</strong>
+                </td>
+                <td>
+                    <div class="d-flex flex-wrap">
+                  <span class="badge bg-secondary rounded-pill px-2 me-2 mb-2"
+                  >HTML5</span
+                  >
+                        <span class="badge bg-secondary rounded-pill px-2 me-2 mb-2"
+                        >CSS</span
+                        >
+                        <span class="badge bg-secondary rounded-pill px-2 me-2 mb-2"
+                        >Bootstrap 3^</span
+                        >
+                        <span class="badge bg-secondary rounded-pill px-2 me-2 mb-2"
+                        >UI Kit</span
+                        >
+                        <span class="badge bg-secondary rounded-pill px-2 me-2 mb-2"
+                        >Responsive</span
+                        >
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<!--end skills-->
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<!--projects-->
+<section>
+    <div class="container mt-5 mb-4 text-center">
+        <h3 class="display-6 text-muted">
+            <i class="fa fa-laptop-code text-success"></i> Projects
+        </h3>
+        <hr/>
+        <div class="row">
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture12.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Java</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Android Studio</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >API</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Retrofit</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture13.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Javascript</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >React Native</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >JSX</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >API</span
+                            ></small
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture14.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Javascript</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >React Native</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >JSX</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >API</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture1.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Java</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Android Studio</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture2.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Visual Studio</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Asp.net MVC</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >JQuery</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture3.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Java</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Android Studio</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >API</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Retrofit</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture4.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Visual Studio</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Asp.net Core</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >JQuery</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >EF Core</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture5.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Java</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Android Studio</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Matlab</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >SQLite</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture6.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Basic</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >B4A</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture7.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Asp.net Core</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >WebApi</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >EF Core</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture8.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Windows Form</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >EF</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >SQL Server</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture9.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Html</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Css</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Bootstrap</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >UIKit</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Responsive</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture10.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Asp.net Core</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >WebApi</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >EF Core</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-success">
+                    <img
+                            src="./assets/images/projects/Picture11.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="d-flex flex-wrap">
+                  <span
+                          class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                  >Html</span
+                  >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Css</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Bootstrap</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >UIKit</span
+                            >
+                            <span
+                                    class="badge bg-success mb-2 me-2 rounded rounded-pill px-2"
+                            >Responsive</span
+                            >
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end projects-->
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!--certificates-->
+<section>
+    <div class="container mt-5 mb-4 text-center">
+        <h3 class="display-6 text-muted">
+            <i class="fa fa-certificate text-warning"></i> Certificates
+        </h3>
+        <hr/>
+        <div class="row">
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/CPP.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >C++</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/CSharp.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >C#</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/JS.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >Javascript</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/SQL.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >SQL</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/HTML.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >HTML</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/Responsive%20Web%20Design.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >Responsive Web Design</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mb-3 col-sm-6">
+                <div class="card border border-2 border-warning">
+                    <img
+                            src="./assets/images/certificates/IranianRed.jpg"
+                            style="height: 150px; max-height: 150px"
+                            class="card-img-top"
+                            alt="project"
+                    />
+                    <div class="card-body">
+                        <small class="text-center">
+                  <span
+                          class="badge bg-warning mb-2 me-2 rounded rounded-pill px-2"
+                  >هلال احمر</span
+                  >
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end certificates-->
+
+<!--footer-->
+<section>
+    <div
+            class="bg-dark text-center py-3 d-flex align-items-center justify-content-center position-absolute w-100 text-white"
+    >
+        <p>Copyright &copy; 2023 - Mohammad Sadra Boromand</p>
+    </div>
+</section>
+<!--end footer-->
+
+<!--js-->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/particles/particles.min.js"></script>
+<script src="./assets/js/particles/app.js"></script>
+</body>
+</html>
